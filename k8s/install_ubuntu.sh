@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KUBE_VERSION=${KUBE_VERSION:-1.18.3}
+KUBE_VERSION=${KUBE_VERSION:-1.20.1}
 
 sudo apt-get update -y
 sudo apt-get install -y linux-headers-$(uname -r) docker.io
